@@ -1,0 +1,34 @@
+available profiles
+
+nice load:
+'G0-A',
+'G0-M',
+'G1-A',
+'G1-B',
+'G1-C',
+'G3-A',
+'G3-H',
+'G4-A',
+'G5-A',
+'L2-M',
+'HS8',
+'HS11',
+'HS12',
+'HS13',
+'HS14',
+'HS16',
+'HS27'
+
+nice wind:
+'WP1',
+'WP3',
+'WP7',
+'WP10'
+
+nice PV:
+'PV1',
+'PV2',
+'PV3',
+'PV4',
+'PV7',
+'PV8'

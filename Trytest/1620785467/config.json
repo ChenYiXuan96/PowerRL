@@ -1,0 +1,44 @@
+{
+    "ac_kwargs":	{
+        "activation":	"ReLU",
+        "hidden_sizes":	[
+            128,
+            128,
+            128
+        ]
+    },
+    "actor_critic":	"GridActorCritic",
+    "clip_ratio":	0.2,
+    "env_fn":	"PwrCptingEnv",
+    "epochs":	500,
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x156cfc0b8>":	{
+            "epoch_dict":	{},
+            "exp_name":	null,
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"Trytest/1620785467",
+            "output_file":	{
+                "<_io.TextIOWrapper name='Trytest/1620785467/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "output_dir":	"Trytest/1620785467"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.001,
+    "save_freq":	24,
+    "seed":	1234,
+    "steps_per_epoch":	24,
+    "target_kl":	0.05,
+    "train_pi_iters":	80,
+    "train_v_iters":	60,
+    "ts":	true,
+    "vf_lr":	0.001
+}
